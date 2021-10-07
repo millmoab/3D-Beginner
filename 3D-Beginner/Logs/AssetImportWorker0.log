@@ -637,3 +637,27 @@ Received Import Request.
 Start importing Assets/Prefabs/New Lighting Settings.lighting using Guid(87c705b1b75944cd0b99e91903007a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42af7585846555dbd4292e5f3879e563') in 0.004491 seconds 
   Import took 0.007244 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 434.865725 seconds.
+  path: Assets/Scenes/MainScene/NavMesh.asset
+  artifactKey: Guid(9765a2319dfd54ca6adea56a534f1d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/NavMesh.asset using Guid(9765a2319dfd54ca6adea56a534f1d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd4bc322d2ea6be8b423fa7a0093ab0') in 0.014799 seconds 
+  Import took 0.021497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 500.087200 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.007210 seconds 
+  Import took 0.009973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015808 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.004793 seconds 
+  Import took 0.007358 seconds .
+
