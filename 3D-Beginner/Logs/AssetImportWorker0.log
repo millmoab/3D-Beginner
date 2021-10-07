@@ -621,3 +621,19 @@ Received Import Request.
 Start importing Assets/Prefabs/JohnLemon.prefab using Guid(c255ec0c04b33492291bfb82fddb1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696b293710db4af2fbafe7f902111ff5') in 0.155001 seconds 
   Import took 0.157899 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 586.427621 seconds.
+  path: Assets/Prefabs/New Lighting Settings.lighting
+  artifactKey: Guid(87c705b1b75944cd0b99e91903007a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Lighting Settings.lighting using Guid(87c705b1b75944cd0b99e91903007a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb20833eb500412964c37d940b7c029') in 0.274306 seconds 
+  Import took 0.346613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.368314 seconds.
+  path: Assets/Prefabs/New Lighting Settings.lighting
+  artifactKey: Guid(87c705b1b75944cd0b99e91903007a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Lighting Settings.lighting using Guid(87c705b1b75944cd0b99e91903007a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42af7585846555dbd4292e5f3879e563') in 0.004491 seconds 
+  Import took 0.007244 seconds .
+
