@@ -301,3 +301,11 @@ Received Import Request.
 Start importing Assets/Animation/Animators/JohnLemon.controller using Guid(b9ce99ae7a86142efb13c4e1e1da2e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2297737588e9203fc8183aa65bb7a95') in 0.010796 seconds 
   Import took 0.014077 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 427.637755 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(1f19bea6983d93d4083ef7ffa4b8bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(1f19bea6983d93d4083ef7ffa4b8bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9187d76b1901c989431d8bb8426d6c1') in 0.001280 seconds 
+  Import took 0.009124 seconds .
+
