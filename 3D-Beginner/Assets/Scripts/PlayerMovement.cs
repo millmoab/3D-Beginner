@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    public TextMeshProUGUI healthText;
+
+    private int health;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -17,6 +21,10 @@ public class PlayerMovement : MonoBehaviour
         m_Animator = GetComponent<Animator> ();
         m_Rigidbody = GetComponent<Rigidbody> ();
         m_AudioSource = GetComponent<AudioSource> ();
+        
+        health = 100;
+        SetHealthText ();
+    
     }
 
     void FixedUpdate ()
@@ -54,5 +62,23 @@ public class PlayerMovement : MonoBehaviour
     {
         m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
         m_Rigidbody.MoveRotation (m_Rotation);
+    }
+
+    
+
+    void OnTriggerEnter (Collider other)
+    {
+
+        if (other.gameObject.CompareTag ("Damage"))
+        {
+            health= health - 2;
+            SetHealthText ();
+        }
+    }
+    
+    void SetHealthText()
+    {
+
+        healthText.text="Health: " + health.ToString();
     }
 }
