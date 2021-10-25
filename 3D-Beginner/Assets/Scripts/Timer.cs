@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     public Text timerText;
     private float startTime;
     private bool won = false;
-    public float water= 10f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -24,19 +24,7 @@ public class Timer : MonoBehaviour
         string minutes= ((int) t/60).ToString();
         string seconds= (t % 60).ToString("f0");
         timerText.text = minutes + ':'+ seconds;
-
-        void OnCollisionEnter2D(Collision col)
-  {
-      Debug.Log("OnCollisionEnter2D is called");
-      if (col.gameObject.tag == "Water")
-      {
-          startTime += water;
-      }
-  }
-
-    
-    
-    
+        
     }
     public void Win(){
         won= true;
