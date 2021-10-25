@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -71,7 +72,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.CompareTag ("Damage"))
         {
-            health= health - 2;
+            health= health - 10;
+            if (health <= 0)
+                SceneManager.LoadScene (0);
             SetHealthText ();
         }
     }
